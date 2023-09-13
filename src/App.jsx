@@ -1,14 +1,12 @@
-import './App.css'
-import Button from '@mui/material/Button';
+import "./assets/scss/main.scss";
+import { Navigate, Route, Routes } from "react-router-dom";
 
 function App() {
 
 
   return (
     <>
-<p>123
-</p>
-<Button variant="contained">Hello world</Button>
+<p>Advertise</p>
     </>
   )
 }

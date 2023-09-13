@@ -1,16 +1,17 @@
+@import "./fonts";
+
 *,
 *::after,
 *::before {
   box-sizing: border-box;
-  font-family: "Spartan", sans-serif;
-  font-size: 12px;
-  line-height: 0.8;
-  font-weight: 500;
-  color: #0c0e16;
+  font-family: "Lato";
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: #fff;
 }
 
 a {
