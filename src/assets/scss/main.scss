@@ -1,4 +1,6 @@
+@import "./normalize";
 @import "./fonts";
+@import "./variables";
 
 *,
 *::after,
@@ -16,6 +18,36 @@ body {
 
 a {
   text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.custom-flex {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .visually-hidden {

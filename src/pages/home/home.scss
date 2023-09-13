@@ -1,0 +1,13 @@
+.home__create-btn {
+  background: transparent;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 25px;
+  transition: 0.2s ease-in-out;
+  font-weight: 700;
+  gap: 5px;
+  margin: 8px 0;
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}

@@ -1,12 +1,16 @@
 import "./assets/scss/main.scss";
 import { Navigate, Route, Routes } from "react-router-dom";
+import { Home } from "./pages/home/home";
 
 function App() {
 
 
   return (
     <>
-<p>Advertise</p>
+    <Routes>
+      <Route path="/" element={<Home/>}></Route>
+    </Routes>
+
     </>
   )
 }
