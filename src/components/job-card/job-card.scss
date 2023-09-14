@@ -1,0 +1,28 @@
+.job-card {
+  max-width: 325px;
+  border-radius: 15px;
+  display: flex;
+  transition: 0.5s ease-in-out;
+  position: relative;
+  background: rgba(69, 83, 102, 0.03);
+
+  &:hover {
+    transform: scale(1.05);
+    z-index: 100;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+  }
+}
+
+.job-card__link {
+  padding: 10px;
+}
+
+.job-card__title {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.job-card__job-title {
+  font-size: 15px;
+  font-weight: 700;
+}

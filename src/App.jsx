@@ -1,6 +1,6 @@
 import "./assets/scss/main.scss";
 import { Navigate, Route, Routes } from "react-router-dom";
-import { Home } from "./pages";
+import { Home, Jobs } from "./pages";
 import { Layout } from "./components";
 
 
@@ -13,7 +13,7 @@ function App() {
     <Routes>
           <Route path="/" element={<Layout/>}>
             <Route index element={<Home/>}/>
-
+            <Route path="jobs" element={<Jobs/>}/>
           </Route>
     </Routes>
 
