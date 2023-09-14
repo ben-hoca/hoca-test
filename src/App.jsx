@@ -1,6 +1,9 @@
 import "./assets/scss/main.scss";
 import { Navigate, Route, Routes } from "react-router-dom";
-import { Home } from "./pages/home/home";
+import { Home } from "./pages";
+import { Layout } from "./components";
+
+
 
 function App() {
 
@@ -8,7 +11,10 @@ function App() {
   return (
     <>
     <Routes>
-      <Route path="/" element={<Home/>}></Route>
+          <Route path="/" element={<Layout/>}>
+            <Route index element={<Home/>}/>
+
+          </Route>
     </Routes>
 
     </>

@@ -11,3 +11,12 @@
     background: rgba(0, 0, 0, 0.1);
   }
 }
+
+.home-wrapper {
+  position: relative;
+  border-left: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+.home__message-card-line {
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+}

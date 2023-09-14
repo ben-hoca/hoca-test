@@ -3,6 +3,7 @@
   transition: 0.1s ease-in-out;
   border-radius: 8px;
 
+
   &:hover {
     background: rgba(0, 0, 0, 0.05);
     cursor: pointer;
@@ -91,13 +92,30 @@
 
 .message__control-btn {
   background: #eaedef;
-  padding: 8px;
+
   border-radius: 20px;
   border: none;
+  margin-right: 11px;
 }
 
 .message__likes-btn {
   border: 0;
+  padding: 8px;
   background: transparent;
+  border-radius: 20px;
+  &:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
 }
 
+.message-card__comments-btn {
+  background: #eaedef;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 11px;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+}
