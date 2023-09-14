@@ -1,15 +1,14 @@
-import "./message-card.scss"
-import menuIcon from "../../assets/icons/menu.svg"
-import arrowUp from "../../assets/icons/arrow-up.svg"
 import arrowDown from "../../assets/icons/arrow-down.svg"
+import arrowUp from "../../assets/icons/arrow-up.svg"
 import comment from "../../assets/icons/comment.svg"
+import menuIcon from "../../assets/icons/menu.svg"
 import shareIt from "../../assets/icons/share-it.svg"
-import { useState } from "react"
+import "./message-card.scss"
 
 
 
 export const MessageCard = ()=>{
-
+  
   return <li className="message-card">
     <div className="message-header custom-flex">
       <div className="custom-flex">
@@ -22,7 +21,7 @@ export const MessageCard = ()=>{
   <button className="message-card__menu-btn custom-flex"><img src={menuIcon} alt="menu icon" /></button>
   </div>
     </div>
-    <p className="message-card__title">  Why is my pc making this buzzing noise?? lor
+    <p className="message-card__title">Why is my pc making this buzzing noise?? lor
   </p>
     <div className="message__image-wrapper">
     <img className="message__image" src="https://picsum.photos/id/2/300/300" alt="post image" />

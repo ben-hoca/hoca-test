@@ -11,7 +11,7 @@ export const SideBar = ()=>{
     <ul>
       <li className="sidebar__item"><Link to={"/"} className="sidebar__link custom-flex"> <img width={23} height={20} src={home} alt="home page" /> Home</Link></li>
       <li className="sidebar__item"><Link to={"/jobs"} className="sidebar__link custom-flex"><img width={23} height={20} src={job} alt="home page" />Jobs</Link></li>
-      <li className="sidebar__item"><Link to={"travels"} className="sidebar__link custom-flex"><img width={23} height={20} src={rocket} alt="home page" />Travels</Link></li>
+      <li className="sidebar__item"><Link to={"/travels"} className="sidebar__link custom-flex"><img width={23} height={20} src={rocket} alt="home page" />Travels</Link></li>
     </ul>
   </div>)
 }

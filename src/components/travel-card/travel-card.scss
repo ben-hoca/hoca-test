@@ -1,0 +1,36 @@
+.travel-card {
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+  position: relative;
+  background: rgba(48, 117, 213, 0.08);
+}
+
+.travel-card__link-image {
+}
+
+.travel-card__link {
+  padding: 10px;
+}
+
+.travel-card__title {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.travel-card__travel-title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.travel-card__image {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+.travel-card__price {
+  color: rgb(28, 161, 28);
+  font-weight: 700;
+}
