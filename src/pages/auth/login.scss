@@ -1,0 +1,31 @@
+.login {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba($color: #000, $alpha: 0.5);
+  font-size: 13px;
+}
+
+.login-wrapper {
+  position: relative;
+  margin: 50px auto;
+  max-width: 80vw;
+  max-height: 90%;
+  transform: scale(1);
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 11px 15px -7px #0003, 0 24px 38px 3px #00000024,
+    0 9px 46px 8px #0000001f;
+  // pointer-events: auto;
+
+  overflow-y: auto;
+
+  // padding: 72px 40px 80px 40px;
+}
+
+.login__link {
+  margin: 20px 0 0 10px;
+}
